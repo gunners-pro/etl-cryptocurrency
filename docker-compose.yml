@@ -7,7 +7,7 @@ services:
     volumes:
       - ./azurite:/data
     environment:
-      AZURITE_ACCOUNTS: "devstoreaccount1:Eby8vdM02xNOcqFEYpYJys2OV8I6r9Q1qho="
+      AZURITE_ACCOUNTS: "devstoreaccount1:Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw=="
     command: "azurite --blobHost 0.0.0.0 --location /data"
 
   spark:
